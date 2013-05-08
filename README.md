@@ -1,7 +1,7 @@
 nginx-toolbox
 =============
 
-Collection of bash scripts for an nginx server running on Ubuntu 10.4 (Lucid)
+Collection of bash scripts for an nginx server running on Ubuntu and Debian
 
 
 Install
@@ -13,7 +13,7 @@ If you haven't already, you must install nginx on your server via `apt-get`:
 
 Then, clone this repo to your server:
 
-`git clone git@github.com:a1phanumeric/nginx-toolbox.git`
+`git clone git@github.com:ficuric/nginx-toolbox.git`
 
 `cd` into the directory `nginx-toolbox` and ensure that all `.sh` scripts have execute privilages.
 
@@ -63,12 +63,12 @@ If you wish, you can alter the configuration paths at the top of the `.sh` files
 Acknowledgements
 ----------------
 Credit to [http://www.sebdangerfield.me.uk/](http://www.sebdangerfield.me.uk/) for the inspiration for these files.
-
+And to https://github.com/a1phanumeric/nginx-toolbox
 
 License
 -------
 
-Copyright (C) 2013 edrackham.com
+Copyright (C) 2013 middax.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
